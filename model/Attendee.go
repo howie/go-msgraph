@@ -1,8 +1,9 @@
-package msgraph
+package model
 
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/howie/go-msgraph/common"
 )
 
 // Attendee struct represents an attendee for a CalendarEvent

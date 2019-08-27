@@ -1,7 +1,7 @@
 // Package msgraph is a go lang implementation of the Microsoft Graph API
 //
 // See: https://developer.microsoft.com/en-us/graph/docs/concepts/overview
-package msgraph
+package client
 
 import (
 	"bytes"
@@ -13,6 +13,8 @@ import (
 	"strconv"
 	"sync"
 	"time"
+	"github.com/howie/go-msgraph/model"
+	"github.com/howie/go-msgraph/common"
 )
 
 // GraphClient represents a msgraph API connection instance.

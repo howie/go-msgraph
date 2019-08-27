@@ -1,8 +1,9 @@
-package msgraph
+package model
 
 import (
 	"testing"
 	"time"
+	"github.com/howie/go-msgraph/common"
 )
 
 func TestAttendees_String(t *testing.T) {

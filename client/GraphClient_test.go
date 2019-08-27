@@ -1,4 +1,4 @@
-package msgraph
+package client
 
 import (
 	"fmt"

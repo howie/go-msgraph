@@ -1,4 +1,4 @@
-package msgraph
+package common
 
 import (
 	"encoding/json"

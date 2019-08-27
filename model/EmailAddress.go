@@ -1,4 +1,4 @@
-package msgraph
+package model
 
 // EmailAddress represents an emailAddress instance as microsoft.graph.EmailAddress. This is used at
 // various positions, for example in CalendarEvents for attenees, owners, organizers or in Calendar

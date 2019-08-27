@@ -1,10 +1,11 @@
-package msgraph
+package model
 
 import (
 	"fmt"
 	"net/url"
 	"strings"
 	"time"
+	"go-msgraph/client"
 )
 
 // User represents a user from the ms graph API
